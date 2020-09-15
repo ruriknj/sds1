@@ -16,7 +16,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.devsuperior.dspesquisa.entities.enums.Platform;
-import com.devsuperior.dspesquisa.entities.enums.Record;
 
 @Entity
 @Table(name = "tb_game")

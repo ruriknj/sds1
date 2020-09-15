@@ -1,4 +1,4 @@
-package com.devsuperior.dspesquisa.entities.enums;
+package com.devsuperior.dspesquisa.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -10,8 +10,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
-import com.devsuperior.dspesquisa.entities.Game;
 
 @Entity
 @Table(name = "tb_record")
