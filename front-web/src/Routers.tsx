@@ -1,22 +1,26 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Header from './components/Header/Index';
 import Home from './pages/Home/Index';
 import Records from './pages/Records/Index';
+import Charts from './pages/Charts/index';
 
 const Routes = () => (
 
 
     <BrowserRouter>
         <Header />
-        <switch>
+        <Switch>
             <Route path="/" exact>
                 <Home />
             </Route>
             <Route path="/records">
                 <Records />
             </Route>
-        </switch>
+            <Route path="/charts">
+                <Charts />
+            </Route>
+        </Switch>
     </BrowserRouter>
 
 );
