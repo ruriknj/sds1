@@ -1,4 +1,4 @@
-Site web e mobile: 
+Site web e mobile: Pesquisa de jogos mais votados
 
 Acesse via https://sds1-rurik.netlify.app
 
